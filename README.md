@@ -7,7 +7,7 @@
 brew install phantomjs # mac
 
 ## if use centos
-# yum install phantomjs ## 
+# yum install phantomjs
 
 ## python
 sudo pip install html5lib
