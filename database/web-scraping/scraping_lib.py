@@ -38,4 +38,4 @@ class ScrapingLib(object):
 ## test
 if __name__ == '__main__':
     scraper = ScrapingLib()
-    print scraper.get_sorp("http://sumodb.sumogames.de/Results_text.aspx?b=201509&d=9&")
+    print scraper.get_sorp("http://sumodb.sumogames.de/Results_text.aspx?b=201509&d=9")
