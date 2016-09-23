@@ -2,7 +2,7 @@
 
 ## setup
 
-```
+```bash
 ## phantomjs
 brew install phantomjs # mac
 
