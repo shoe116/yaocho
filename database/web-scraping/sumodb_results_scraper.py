@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from scraping_lib import ScrapingLib
 
-class SumodbScraper(object):
+class SumodbResultsScraper(object):
     BASE_URL = "http://sumodb.sumogames.de/Results_text.aspx?b={0}&d={1}"
     LOG_PATH = "/tmp/SumodbScraper.log"
 
@@ -23,5 +23,5 @@ if __name__ == '__main__':
     basho = "01"
     day = "9"
     
-    scraper = SumodbScraper(SumodbScraper.LOG_PATH)
+    scraper = SumodbResultsScraper(SumodbResultsScraper.LOG_PATH)
     print scraper.get_sorp(year, basho, day, "")
